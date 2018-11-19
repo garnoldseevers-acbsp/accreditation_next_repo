@@ -1,16 +1,49 @@
 <style type="text/css">
+    /* Page Overrides */
+    #SpTitleBar{
+        display: none;
+    }
     /* Global */
     .clear{
         clear: both;
     }
+    li{
+        margin-bottom: 25px;
+    }
+    /* Logo */
+    #accreditation-next-logo{
+        width: 250px;
+        margin-bottom: 50px;
+    }
+    /* intro */
+    .intro-section p{
+        margin-bottom: 25px;
+    }
+    /* The Alliance for Performance Excellence */
+    #the-alliance-for-performance-excellence,
+    #efqm{
+        display: block;
+        width: 150px;
+        margin: 0 auto 25px auto;
+    }
     /* Next Steps */
     .accreditation-next-steps{
-        margin: 25px 0px 25px 0px;
+        margin: 25px 0px 50px 0px;
         border-style: dashed;
         border-width: 4px;
         border-color: #d0d0d0;
         border-radius: 15px;
         padding: 25px;
+    }
+    .accreditation-next-steps h2{
+        display: block;
+        margin: 0px auto 25px auto;
+        border-radius: 15px;
+        padding: 10px 25px 10px 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #717171;
     }
     .an-step{
         text-align: center;
@@ -84,6 +117,49 @@
         background-color: #005596;
         color: #ffffff;
     }
+    .an-level-color-block{
+        display: block;
+        width: 80%;
+        height: 25px;
+        margin: 0 auto 25px auto;
+    }
+    .an-level-header{
+        display: block;
+        width: 80%;
+        margin: 0px auto 25px auto;
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        padding-bottom: 25px;
+    }
+    .an-level-icon{
+        display: block;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        margin-right: 5%;
+        border-radius: 100px;
+        text-align: center;
+    }
+    .an-level-icon img{
+        max-width: 100%;
+    }
+    .an-level-title{
+        width: 70%;
+        float: right;
+    }
+    .an-level-plus .an-level-color-block,
+    .an-level-plus .an-level-icon{
+        background-color: #fecb00;
+    }
+    .an-level-platinum .an-level-color-block,
+    .an-level-platinum .an-level-icon{
+        background-color: #f47d30;
+    }
+    .an-level-diamond .an-level-color-block,
+    .an-level-diamond .an-level-icon{
+        background-color: #007481;
+    }
     .an-levels h1,
     .an-levels h2,
     .an-levels h3,
@@ -93,6 +169,10 @@
     .an-levels li{
         color: #ffffff;
     }
+    .an-level-details{
+        width: 80%;
+        margin: 0 auto;
+    }
     .an-level-list-item{
         clear: both;
         margin-bottom: 25px;
@@ -100,21 +180,26 @@
     .an-level-list-item-icon{
         float: left;
         width: 10%;
+        margin-right: 5%;
+    }
+    .an-level-list-item-icon img{
+        width: 100%;
     }
     .an-level-list-item-description{
         float: right;
-        width: 90%;
+        width: 85%;
     }
 </style>
-<div class="container" id="accreitation-next">
-    <h3>Advance your ACBSP Accreditation<br/>Go beyond accreditation for performance excellence.</h3>
+<div class="container" id="accreditation-next">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8 intro-section">
+            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/logo-accreditation-next-blue.png" alt="Accreditation Next" id="accreditation-next-logo"/>
+            <h3>Advance your ACBSP Accreditation<br/>Go beyond accreditation for performance excellence.</h3>
             <p>
-                Institutions and organizations that achieved ACBSP accreditation have a proven dedication to excellence. The journey towards next level performance excellence can continue through Accreditation Next, a collaboration of ACBSP and The Baldrige Alliance for Performance Excellence.
+                Institutions and organizations that achieved ACBSP accreditation have a proven dedication to excellence. The journey towards next level performance excellence can continue through Accreditation Next.
             </p>
             <p>
-                ACBSP members can pursue three tiers of Accreditation Next; Accreditation Plus, Platinum and Diamond. The three tiers qualify organizations for excellence recognition by Baldrige Alliance programs. Diamond tier recipients are eligible to apply to the national Baldrige program and compete for the Malcolm Baldrige Nationa
+                ACBSP members can pursue three tiers of Accreditation Next; Accreditation Plus, Platinum and Diamond. The three tiers qualify organizations for excellence recognition by Baldrige Alliance programs. Diamond tier recipients are eligible to apply to the national Baldrige program and compete for the Malcolm Baldrige National Quality Award, the  U.S. Presidential quality award.
             </p>
             <p>
                 Accreditation Next focuses on process and results:
@@ -137,21 +222,35 @@
                 </li>
             </ul>
             <p>
-                Holding Baldrige recognition is acknowledgment that a college or university’s teaching processes align with the standards of excellence from similar organizations around the world.
+                Holding Baldrige or EFQM recognition is acknowledgement that a college or university’s teaching processes align with the standards of excellence from similar organizations around the world.
             </p>
         </div>
         <div class="col-sm-4">
             <blockquote>
+                <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/the-alliance-for-performance.jpg" alt="The Alliance for Performance Excellence" id="the-alliance-for-performance-excellence"/>
                 "ACBSP is unique among business school accreditation associations in its 30-year relationship and explicit use of the Baldrige Framework for Performance Excellence as the foundation of its accreditation standards and criteria and review process."
-                <br/>
                 <br/>
                 <em>
                     — The Baldrige Alliance for Performance Excellence
                 </em>
             </blockquote>
+            <hr/>
+            <blockquote>
+                <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/logo-efqm.jpg" alt="EFQM" id="efqm"/>
+                “ACBSP has embraced performance excellence like no other business accreditor with its use of a world-class excellence framework as the foundation of its standards, criteria, and review process.”
+                <br/>
+                <em>
+                    — Léon Tossaint, Chief Executive Officer, EFQM
+                </em>
+            </blockquote>
         </div>
     </div>
     <div class="row accreditation-next-steps">
+        <div class="an-step an-step-one col-sm-12">
+            <h2>
+                Accreditation Next Process
+            </h2>
+        </div>
         <div class="an-step an-step-one col-sm-2">
             <div class="an-step-icon">
                 <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-share.png" alt="icon" />
@@ -219,313 +318,328 @@
     </div><!-- / .accreditation-next-steps -->
     <div class="row an-levels">
         <div class="an-level an-level-plus col-sm-4">
+            <div class="an-level-color-block">
+            </div>
             <div class="an-level-header">
                 <div class="an-level-icon">
-                    <img src="" alt="icon" />
+                    <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-level-plus.png" alt="icon" />
                 </div>
                 <h1 class="an-level-title">
                     Plus
                 </h1>
+                <div class="clear"></div>
             </div>
-            <h4>
-                Requirements:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Provides an ENTRY POINT to focused process excellence
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Ensure that the KEY BASIC COMPONENTS of the Baldrige Framework Organizational Profile: 
-                        </p>
-                        <ul>
-                            <li>
-                                Student, Customer, and Stakeholder segments and requirements
-                            </li>
-                            <li>
-                                Mission, Vision and Values
-                            </li>
-                            <li>
-                                Strategic Advantages
-                            </li>
-                            <li>
-                                Strategic Challenges
-                            </li>
-                            <li>
-                                Core Competencies
-                            </li>
-                            <li>
-                                Competitive Environment
-                            </li>
-                            <li>
-                                Strategic Context
-                            </li>
-                            <li>
-                                Performance Improvement System
-                            </li>
-                            <li>
-                                Three improvement projects
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Set the stage for more involved PROCESS AND RESULTS DOCUMENTATION
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            NO site visits
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
-            <h4>
-                Delivery Mode:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>QUALITY FRAMEWORK:</strong> Baldrige Organizational Profile and basic requirements
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>JUDGING:</strong> completeness check by judging panel
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
+            <div class="an-level-details">
+                <h4>
+                    Requirements:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-door.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Provides an ENTRY POINT to focused process excellence
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-paper-pencil.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Ensure that the KEY BASIC COMPONENTS of the Baldrige Framework Organizational Profile: 
+                            </p>
+                            <ul>
+                                <li>
+                                    Student, Customer, and Stakeholder segments and requirements
+                                </li>
+                                <li>
+                                    Mission, Vision and Values
+                                </li>
+                                <li>
+                                    Strategic Advantages
+                                </li>
+                                <li>
+                                    Strategic Challenges
+                                </li>
+                                <li>
+                                    Core Competencies
+                                </li>
+                                <li>
+                                    Competitive Environment
+                                </li>
+                                <li>
+                                    Strategic Context
+                                </li>
+                                <li>
+                                    Performance Improvement System
+                                </li>
+                                <li>
+                                    Three improvement projects
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-pencil-to-sid.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Set the stage for more involved PROCESS AND RESULTS DOCUMENTATION
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-no-people.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                NO site visits
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+                <h4>
+                    Delivery Mode:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-share-thoughts.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-servers.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>QUALITY FRAMEWORK:</strong> Baldrige Organizational Profile and basic requirements
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checkmark.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>JUDGING:</strong> completeness check by judging panel
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+            </div>
         </div><!-- / .an-level -->
         <div class="an-level an-level-platinum col-sm-4">
+            <div class="an-level-color-block">
+            </div>
             <div class="an-level-header">
                 <div class="an-level-icon">
-                    <img src="" alt="icon" />
+                    <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-level-platinum.png" alt="icon" />
                 </div>
                 <h1 class="an-level-title">
                     Platinum
                 </h1>
+                <div class="clear"></div>
             </div>
-            <h4>
-                Requirements:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Documentation of PROCESSES AND RESULTS at the Basic and Overall Level (Baldrige Excellence Builder) are in place
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Documentation of PROCESSES and RESULTS and three improvement projects using the Baldrige Excellence Builder
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Feedback reports from higher education and performance improvement experts set the stage for improved PROCESSES AND RESULTS DOCUMENTATION
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            NO site visits
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
-            <h4>
-                Delivery Mode:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>QUALITY FRAMEWORK:</strong> Use of the Baldrige Excellence Builder
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>SCORING/JUDGING:</strong> 1,000 point scoring model used to highlight key areas of strength and improvements
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
+            <div class="an-level-details">
+                <h4>
+                    Requirements:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-checkboxes.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Documentation of PROCESSES AND RESULTS at the Basic and Overall Level (Baldrige Excellence Builder) are in place
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-clipboard.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Documentation of PROCESSES and RESULTS and three improvement projects using the Baldrige Excellence Builder
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-directional-signs.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Feedback reports from higher education and performance improvement experts set the stage for improved PROCESSES AND RESULTS DOCUMENTATION
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-no-people.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                NO site visits
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+                <h4>
+                    Delivery Mode:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-share-thoughts.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-servers.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>QUALITY FRAMEWORK:</strong> Use of the Baldrige Excellence Builder
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checkmark.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>SCORING/JUDGING:</strong> 1,000 point scoring model used to highlight key areas of strength and improvements
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+            </div>
         </div><!-- / .an-level -->
         <div class="an-level an-level-diamond col-sm-4">
+            <div class="an-level-color-block">
+            </div>
             <div class="an-level-header">
                 <div class="an-level-icon">
-                    <img src="" alt="icon" />
+                    <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-level-diamond.png" alt="icon" />
                 </div>
                 <h1 class="an-level-title">
                     Diamond
                 </h1>
+                <div class="clear"></div>
             </div>
-            <h4>
-                Requirements:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Documentation of PROCESSES AND RESULTS using all criteria of the Baldrige Framework for Excellence
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            Documentation of PROCESSES and RESULTS and three improvement projects using the Baldrige Excellence Builder
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            SITE VISIT of high-scoring applicants
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
-            <h4>
-                Delivery Mode:
-            </h4>
-            <div class="an-level-list">
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>QUALITY FRAMEWORK:</strong> Use of full Baldrige Framework criteria
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-                <div class="an-level-list-item">
-                    <div class="an-level-list-item-icon">
-                        <img src="" alt="icon" />
-                    </div>
-                    <div class="an-level-list-item-description">
-                        <p>
-                            <strong>SCORING/JUDGING:</strong> 1,000 point scoring model used to determine if score is sufficient for award
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div><!-- / .an-level-list-item -->
-            </div><!-- / .an-level-list -->
+            <div class="an-level-details">
+                <h4>
+                    Requirements:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-checkboxes.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Documentation of PROCESSES AND RESULTS using all criteria of the Baldrige Framework for Excellence
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checklist-clipboard.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                Documentation of PROCESSES and RESULTS and three improvement projects using the Baldrige Excellence Builder
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-person.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                SITE VISIT of high-scoring applicants
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+                <h4>
+                    Delivery Mode:
+                </h4>
+                <div class="an-level-list">
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-share-thoughts.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>APPLICATION PREPARATION:</strong> Coaching/Mentoring Model
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-servers.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>QUALITY FRAMEWORK:</strong> Use of full Baldrige Framework criteria
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                    <div class="an-level-list-item">
+                        <div class="an-level-list-item-icon">
+                            <img src="https://www.acbsp.org/resource/resmgr/images/accreditation-next/icon-checkmark.png" alt="icon" />
+                        </div>
+                        <div class="an-level-list-item-description">
+                            <p>
+                                <strong>SCORING/JUDGING:</strong> 1,000 point scoring model used to determine if score is sufficient for award
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- / .an-level-list-item -->
+                </div><!-- / .an-level-list -->
+            </div>
         </div><!-- / .an-level -->
     </div><!-- / .an-levels -->
     <div class="row an-eligibilty-and-cta">
